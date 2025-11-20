@@ -87,3 +87,9 @@ listBtn.addEventListener("click", () => {
 
 // Load members on page load
 getMembers();
+
+
+
+// Footer: Current Year and Last Modified Date
+document.getElementById('currentyear').textContent = new Date().getFullYear();
+document.getElementById('lastmodified').textContent = document.lastModified;

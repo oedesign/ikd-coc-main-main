@@ -60,9 +60,9 @@ nav #nav-links li {
   padding: 10px;
   cursor: pointer;
 }
-nav #nav-links li:hover {
+/* nav #nav-links li:hover {
   background-color: rgb(4, 48, 83);
-}
+} */
 nav #nav-links li a {
   font-size: 18px;
   text-decoration: none;
@@ -152,7 +152,22 @@ nav #nav-links li a {
   justify-content: center;
 }
 
+/* hero - home page */
+.hero-image {
+   position: relative;
+}
+.hero {
+ width: 100%;
+ display: block;
+}
 
+.callToAction {
+  position: absolute;
+  bottom: 30%;
+  left: 42%;
+  border: none;
+  background-color: orange;
+}
 
 /* footer */
 
